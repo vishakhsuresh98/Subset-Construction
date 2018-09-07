@@ -1,0 +1,29 @@
+Subset Construction
+*******************
+
+This is a lex program which accepts an NFA from file and performs subset construction and produces an equivalent DFA.
+
+
+
+To run the lex program
+********************** 
+
+1. Go the directory where the file is present.
+
+2. To build the lex program, type make into the terminal.
+
+3. The lex program has now been built and the executable file mylex is ready.
+
+4. To run the executable file, type
+   ./mylex (number of states) (number of final states) (number of symbols in the alphabet)
+
+5. To remove the unnecessay files, type make remove into the terminal
+   The executable file mylex and lex.yy.c will be removed
+
+
+NOTE: An input.txt file and a specification.txt file has been attached.
+      specification.txt specifies an NFA which accepts those string over the alphabet {a} which have either
+      1. even number of occurrences of a or
+      2. number of occurrences of a that is a multiple of 3 
+
+Done in collaboration with Zaid, Ajat, Akshay and Kuldeep
